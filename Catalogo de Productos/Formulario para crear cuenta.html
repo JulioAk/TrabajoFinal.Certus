@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para crear cuenta</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- img de logo de tienda -->
+            <img src="img/logo img.png" alt="logo de MJstore">
+        </div>
+    </header>
+    <main class="pageform">
+        <h2>Crear tu cuenta</h2>
+
+        <!-- Para hacer formularios escritos -->
+        <form id="formCreateAccount" action="confimacion de envio de datos.html" method="get">
+           <div class="form">
+            <div class="ancho">
+                <!-- Entrada "nombre" -->
+                <label for="txtnombre">Nombres:</label>
+                <input type="text" name="nombre" id="txtnombre" maxlength="60" required>
+            </div>
+            <div class="ancho">
+                <!-- entrada 'apellido' -->
+                <label for="Txt apellido">Apellidos:</label>
+                <input type="text" name="apellido" id="Txt apellido" maxlength="60" required>
+            </div>
+            <div class="ancho">
+                <!-- entrada"DNI" -->
+                <label for="intDNI">DNI:</label>
+                <input type="tel" name="DNI" id="intDNI" maxlength="8" required>
+            </div>
+
+            <!-- Entrada "email" -->
+
+            <div class="ancho">
+                <label for="txtemail">Email:</label>
+                <input type="email" name="Correo electronico" id="txtemail" maxlength="99" required>
+            </div>
+
+            <!-- entrada "telefono" -->
+            <div class="ancho">
+                <label for="intTelefono">Telefono/celular:</label>
+                <input type="tel" name="Telf" id="intTelefono" maxlength="20" required>
+            </div>
+
+            <!-- entrada "categoria de interes" -->
+            <div class="ancho">
+                <label for="txtintrs">Categoria de Interes</label>
+                <input type="text" name="interst" id="txtintrs" maxlength="90">
+            </div>
+
+            <!-- entrada "direccion" -->
+            <div class="anchoSingle">
+                <label for="txtdireccion">Direccion:</label>
+                <input class="50UP" type="text" name="direccion" id="txtdireccion" maxlength="50" required><br>
+                <input class="50UP" type="text" name="direccion2" id="txtdireccion2" maxlength="50">
+            </div>
+
+            <!-- entrada" fecha de nacimiento -->
+            <div class="anchoSingle">
+                <label for="fchNacm">Fecha de Nacimiento:</label>
+                <input type="date" name="FchNacm" id="fchNacm" required>
+            </div>
+
+            <!-- Entrada "sexo M y F" -->
+            <div class="sexo">
+                <p>Sexo:</p>
+                <div class="sex">
+                    <input type="radio" name="sexo" id="bolmasculino" value="M">
+                    <label for="bolmasculino" style="display: inline;">Masculino</label>
+                </div>
+                <div class="sex">
+                    <input type="radio" name="sexo" id="bolfemenino" value="F">
+                    <label for="bolfemenino" style="display: inline;">Femenino</label>
+                </div>
+            </div>
+
+            <!-- Entrada " usuario" -->
+            <div class="ancho">
+                <label for="txtusuario">Usuario:</label>
+                <input type="text" name="User" id="txtusuario" maxlength="25" required>
+            </div>
+            <div class="ancho">
+                <!-- entrada "contraseña" -->
+                <label for="psscontra">Contraseña:</label>
+                <input type="password" name="past" id="psscontra" maxlength="30" required>
+            </div>
+           </div>
+
+            <!-- terminos y condicones -->
+            <div class="term">
+                <input type="checkbox" onclick="agreesubmit(this)" name="condiciones" id="" required> Estoy de acuerdo
+                con los <a href="terminos.html" target="_blank">Terminos y Condiciones</a>
+            </div>
+    
+            <!-- Entrada"enviar" -->
+            <div class="enviar">
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+
+</html>

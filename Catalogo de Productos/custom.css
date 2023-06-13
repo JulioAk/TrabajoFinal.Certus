@@ -1,0 +1,156 @@
+/* Style "global" */
+* {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #002333;
+}
+
+body {
+    background-color: #f1f1f6;
+}
+/* style main */
+
+main {
+    margin: 4% 2%;
+    max-width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+/* style form */
+
+.form {
+    margin: 1%;
+    background-color: white;
+    padding: 3% 3%;
+    border-radius: 1em;
+    border-style: inset ;
+    border-color:#159A9C;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style cuestionario */
+
+.ancho {
+    margin: 1% 2%;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.anchoSingle {
+    margin: 1% 2%;
+    background-color: transparent;
+}
+
+.ancho label {
+    background-color: transparent;
+    display: block;
+}
+
+.ancho input {
+    background-color: transparent;
+    width: 20em;
+    height: 2em;
+    border-radius: 0.7em;
+    margin: 2% 0%;
+}
+
+.ancho input:hover {
+    border-color: #159A9C;
+}
+.anchoSingle label {
+    max-width: 50%;
+    background-color: transparent;
+    display: block;
+}
+
+.anchoSingle input {
+    background-color: transparent;
+    width: 20em;
+    height: 2em;
+    border-radius: 0.5em;
+    margin: 1% 0% 0.05%;
+}
+
+/* style input de eleccion */
+
+.sexo {
+    margin: 1% 2%;
+    max-width: 40%;
+    background-color: transparent;
+}
+.sexo p {
+    background-color: white;
+}
+.sexo .sex {
+    background-color: white;
+}
+.sexo .sex label {
+    background-color: white;
+}
+.sexo .sex input {
+    background-color: white;
+}
+
+/* style checkbox */
+
+.term {
+    margin: 3%;
+}
+/* style button enviar */
+.enviar {
+    margin: 3% 4% 0%;
+    max-width: 20%;
+}
+.enviar button {
+    background-color: #159A9C;
+    border: none;
+    padding: 5% 15% ;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+
+/* style de confimacion de datos */
+
+.center {
+    max-width: 40%;
+    margin: 10% 20% 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.center p {
+    margin: 10%;
+}
+.center p a {
+    background-color: #159A9C;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 2em;
+}
+
+/* style  terminos y condiciones */
+
+.terminosYcondiciones {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.terminosYcondiciones h2{
+    text-align: center;
+    padding: 3%;
+}
+.terminosYcondiciones .termYcond {
+    background-color: white;
+    padding: 2%;
+    border-radius: 2em;
+}
+.termYcond p {
+    background-color: white;
+}
